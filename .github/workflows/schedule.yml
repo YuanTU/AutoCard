@@ -7,7 +7,7 @@ on:
     branches: [ main ]
     
   schedule:
-    # UTC 01:00 和 UTC 03:00
+    # UTC 01:00 和 UTC 00:00
     - cron: '0 0,1 * * *'
   
   # 当star当前仓库时立即执行
